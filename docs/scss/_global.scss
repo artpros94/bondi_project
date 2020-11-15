@@ -1,0 +1,29 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul,
+li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+body{
+    color: #a8b9c0;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.container{
+    max-width: 1172px;
+    margin: 0 auto;
+}
